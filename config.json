@@ -1,0 +1,72 @@
+{
+"debugging": {
+
+},
+
+"settings": {
+    "paths": {
+        "general": "assets\\",
+        "audio": {
+            "music": "assets\\audio\\music\\",
+            "sfx": "assets\\audio\\sfx\\"
+        },
+        "surface": {
+            "launcher": "assets\\surface\\launcher\\",
+            "ingame": "assets\\surface\\ingame\\",
+            "character": {
+                "Johnny Sins": "assets\\surface\\character\\johnny_sins\\",
+                "Buddah G": "assets\\surface\\character\\buddah_G\\",
+                "Yagamo": "assets\\surface\\character\\yagamo\\",
+                "John Money": "assets\\surface\\character\\john_money\\",
+                "Zustin": "assets\\surface\\character\\zusting\\"
+            }
+        },
+        "fonts": {
+            "windows": "assets\\others\\fonts\\windows.ttf",
+            "fnf": "assets\\others\\fonts\\fnf.ttf",
+            "minecraft": "assets\\others\\fonts\\minecraft.ttf",
+            "agency": "assets\\others\\fonts\\agency.ttf"
+        }
+            }
+            },
+
+
+"ingame": {
+    "window": {
+        "width": 720,
+        "ratio": 0.5625,
+        "title": "Danceoff Beatdown - Ingame"
+    },
+
+    "ticks": {
+        "limit": 360.0
+    },
+
+    "configs": {
+        "debugging": false,
+        "gui": true,
+        "background": true
+    }
+        },
+
+"launcher": {
+    "window": {
+        "width": 1080,
+        "height": 0.5625,
+        "title": "Danceoff Beatdown - Main Menu"
+    },
+
+    "ticks": {
+        "limit": 360.0
+    },
+
+    "configs": {
+        "debugging": false,
+        "gui": true,
+        "background": true
+    }
+            }
+
+
+
+}

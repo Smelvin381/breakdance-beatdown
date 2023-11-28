@@ -6,6 +6,7 @@
 "settings": {
     "paths": {
         "general": "assets\\",
+        "blank": "assets\\others\\blank.png",
         "audio": {
             "music": "assets\\audio\\music\\",
             "sfx": "assets\\audio\\sfx\\"
@@ -33,9 +34,10 @@
 
 "ingame": {
     "window": {
-        "width": 720,
+        "width": 1080,
         "ratio": 0.5625,
-        "title": "Danceoff Beatdown - Ingame"
+        "title": "Danceoff Beatdown - Ingame",
+        "icon": "assets\\surface\\icon.ico"
     },
 
     "ticks": {
@@ -43,9 +45,20 @@
     },
 
     "configs": {
-        "debugging": false,
+        "debugging": {
+            "resources": true,
+            "main_loop": true
+        },
         "gui": true,
-        "background": true
+        "background": true,
+        "fps_limit": 70,
+        "train": {
+            "enabled": true,
+            "speed": 45},
+        "windows": {
+            "enabled": true,
+            "speed": 0.03
+        }
     }
         },
 

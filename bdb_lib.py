@@ -106,7 +106,7 @@ class PyWindow:
 
             font_obj = pygame.font.Font(path,size)
             # Select font as obj
-
+            amount += 300 #(get more fps)
             fullstring = font_obj.render(str(amount),True,(rgba[0],rgba[1],rgba[2],rgba[3]))
             self.obj.blit(fullstring,(pos[0],pos[1]))
             # render text

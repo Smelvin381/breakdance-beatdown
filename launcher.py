@@ -100,7 +100,7 @@ class d: #Für Debugging und Tools
                     exit()
         if "Updater" == "Updater":
             pygame.display.update()
-            clock.tick(70)
+            clock.tick(70+300) #additional 300 FPS
     def warning(grund:str="E"):                                                                                         #Fehler meldung anzeigen
         missing = d.image_load(quelle='others/missing.png')
         missing = d.transform(load=missing,type=0,eingabe=[d.sett.fenster['x'],d.sett.fenster['y']])
